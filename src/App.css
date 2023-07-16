@@ -120,6 +120,11 @@ button:hover {
     margin-bottom: 40px;
     margin-top: 15px;
   }
+  para2 {
+    font-size: 16px;
+    word-spacing: normal;
+    margin-bottom: 40px;
+  }
 
   .main-content {
     /*border:1px solid*/
