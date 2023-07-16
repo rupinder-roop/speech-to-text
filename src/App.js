@@ -27,14 +27,18 @@ const App = () => {
                     {transcript}
                 </div>
                 <div className="same-btn-style">
-                <div className="btn-style">
-                    
-                    <button onClick={startListening}>Start Listening </button>
-                    <button onClick={SpeechRecognition.stopListening}>Stop Listening </button><br />
-                    
-                </div>
+                    <div className="btn-style">
+                        
+                        <button onClick={startListening}>Start Listening </button>
+                        
+                    </div>
+                    <div className="btn-style">
+                        <button onClick={SpeechRecognition.stopListening}>Stop Listening </button>
+                        
+                    </div>
                   <div className="btn-style">
                     <button onClick={setCopied}> {isCopied ? "Yes! Copied" : 'Copy To ClipBoard'}  </button>
+                  </div><div className="btn-style">
                     <button onClick={refresh}>Refresh</button>
                   </div>
                 </div>
